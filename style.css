@@ -1,0 +1,90 @@
+body {
+    background-color: #f3eae3;
+    overflow: hidden;
+}
+section  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    border: transparent;
+    background-image: url(m.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.form-container {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subject {
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: 0.6;
+    margin-top: 100px;
+}
+.mainName {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+.explane {
+    margin-left: 310px;
+    width: 300px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.mainprice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.price {
+    
+    font-size: 40px;
+    color:  rgb(41, 104, 37);
+    font-weight: bold;
+    margin-left: 200px;
+}
+.off {
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+button {
+    padding: 6px;
+    margin-left: 300px;
+    margin-bottom: 90px;  
+    border-radius: 8px;
+    width: 230px;
+    background-color: rgb(41, 104, 37);
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 4px;
+}
+p{
+    position: relative;
+    margin-top: 15px;
+}
+ion-icon {
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 15px;
+}
